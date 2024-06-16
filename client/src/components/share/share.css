@@ -1,0 +1,97 @@
+.share{
+    width: 100%;
+    height: max-content;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.shareWrapper{
+    padding: 10px;
+}
+.shareHr{
+    margin: 20px 0 25px 0;
+}
+.shareProfile{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.shareTop{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.shareInput{
+    border: none;
+    outline: none;
+    width: 85%;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 10px;
+    color: #555;
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+.shareBottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.shareOptions{
+    width: 100%;
+    display: flex;
+}
+.shareOption{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+.shareIcon{
+    font-size: 18px;
+}
+.shareOptionText{
+    font-size: 14px;
+    font-weight: bold;
+}
+.shareBtn{
+    padding: 8px 14px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #1D9BF0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sharePostContainer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+
+}
+.sharePostImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sharePostCancelIcon{
+    position: absolute;
+    padding: 10px 12px;
+    border-radius: 50%;
+    right: 12px;
+    top: 10px;
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    cursor: pointer;
+}
